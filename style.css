@@ -7,14 +7,19 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #d9d4d9;
+    background-color: rgb(189, 188, 189);
 }
 
 .image-container {
     display: flex;
+    flex: 1;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
+    background-color: rgb(176, 166, 235);
+    min-width: 100px;
+    height: auto;
+    flex-direction: row;
 }
 
 .image-item {
@@ -23,7 +28,7 @@ body {
 }
 
 .image-item img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 8px;
 }
